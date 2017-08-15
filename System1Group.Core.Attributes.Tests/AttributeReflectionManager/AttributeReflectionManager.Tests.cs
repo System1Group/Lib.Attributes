@@ -3,12 +3,12 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using NUnit.Framework;
     using System1Group.Core.Attributes;
     using System1Group.Core.Attributes.Tests.TestObjects;
-    using NUnit.Framework;
 
     [TestFixture]
-    public class AttributeReflectionManagerTests
+    public class AttributeReflectionManager_Tests
     {
         [Test]
         public void AttributeReflectionManager_GetPropertiesImplementing_Null()
