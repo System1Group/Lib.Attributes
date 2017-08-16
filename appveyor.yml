@@ -18,7 +18,7 @@ before_build:
 build:
   verbosity: minimal
 after_build:
-- ps: nuget pack System1Group.Lib.Attributes\System1Group.Lib.Attributes.csproj -Version $env:appveyor_build_version -IncludeReferencedProjects
+- ps: nuget pack Attributes\System1Group.Lib.Attributes.csproj -Version $env:appveyor_build_version -IncludeReferencedProjects
 test:
   assemblies:
     only:
