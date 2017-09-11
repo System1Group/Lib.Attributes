@@ -1,8 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="CSharpRuleSet" Version="2.0.9" />
     <PackageReference Include="System1Group.Lib.CoreUtils" Version="2.0.38" />
   </ItemGroup>
 </Project>

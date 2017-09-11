@@ -8,7 +8,8 @@
     {
         private string reason;
 
-        public DoNotIncludeInWindsorTest() : this("No reason given")
+        public DoNotIncludeInWindsorTest()
+            : this("No reason given")
         {
         }
 
