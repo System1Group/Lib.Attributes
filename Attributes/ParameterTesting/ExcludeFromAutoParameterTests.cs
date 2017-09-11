@@ -18,7 +18,8 @@
             this.ExclusionReason = reasonForExclusion;
         }
 
-        public ExcludeFromAutoParameterTests(ExclusionType exclusionType, string reasonForExclusion) : this()
+        public ExcludeFromAutoParameterTests(ExclusionType exclusionType, string reasonForExclusion)
+            : this()
         {
             this.ExclusionTypes.Add(exclusionType);
             this.ExclusionReason = reasonForExclusion;
