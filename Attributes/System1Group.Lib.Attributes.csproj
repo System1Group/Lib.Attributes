@@ -8,6 +8,6 @@
     <PackageReference Include="CSharpRuleSet" Version="2.0.9">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="System1Group.Lib.CoreUtils" Version="2.0.38" />
+    <PackageReference Include="System1Group.Lib.CoreUtils" Version="2.1.0" />
   </ItemGroup>
 </Project>
