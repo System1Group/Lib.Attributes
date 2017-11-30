@@ -1,5 +1,6 @@
-# Lib.Attributes
+[![Build status](https://ci.appveyor.com/api/projects/status/kiim5op48rimx51g/branch/master?svg=true)](https://ci.appveyor.com/project/System1Group/lib-attributes/branch/master)
 
+# Lib.Attributes
 Contains shared attributes used by other code
 
 ## Object Building
