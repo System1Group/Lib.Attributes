@@ -3,7 +3,7 @@
     using System;
     using CoreUtils;
 
-    [AttributeUsage(AttributeTargets.Parameter)]
+    [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.Class)]
     public class AllowCreationWhenAutomating : Attribute
     {
         private string allowReason;
